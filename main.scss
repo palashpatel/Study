@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+// Configuration and helpers
+@import "helpers/variables", "helpers/mixin", "helpers/responsive", "helpers/bootstrap-reset", "helpers/animation";
+
+// Vendors
+@import "vendor/bootstrap/scss/bootstrap";
+
+// Base stuff
+@import "base/base", "base/typography";
+
+// Layout-related sections
+@import "layout/header", "layout/footer";
+
+// Components
+@import "components/common", "components/body-top-dots", "components/section-dots", "components/button",
+	"components/chart", "components/chart-custom-legend", "components/custom-select", "components/banner",
+	"components/data-box";
+
+// Pages specific
+@import "pages/home", "pages/about-us", "pages/discretionary", "pages/faq", "pages/contact-us", "pages/become-a-client",
+	"pages/inner-page";
